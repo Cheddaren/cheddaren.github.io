@@ -1,4 +1,44 @@
-body {
+body: {
+    margin: 0;
+}
+header {
     background:#999;
-    font-family: arial;
+    color: white;
+    padding: 15px 15px 0 15px;
+}
+
+header h1{
+    margin: 0;
+    display: inline;
+}
+
+nav ul {
+    display: inline;
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+
+nav ul li {
+    background: black;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+    margin: 0;
+    
+}
+
+nav ul li a {
+    color: white;
+}
+
+.row {
+    
+}
+
+.col {
+    float: left;
+}
+
+footer {
+    clear: both;
 }
