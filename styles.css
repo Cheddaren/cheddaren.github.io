@@ -1,5 +1,34 @@
 body {
-  border: 3px solid #6cc644;
   background: black;
   margin: 0;
+}
+#container {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.pages {
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+#page1 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-top: 3px solid #6cc644;
+  border-left: 3px solid #6cc644;
+  border-right: 3px solid #6cc644;
+}
+#page2 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-bottom: 3px solid #6cc644;
+  border-left: 3px solid #6cc644;
+  border-right: 3px solid #6cc644;
 }
