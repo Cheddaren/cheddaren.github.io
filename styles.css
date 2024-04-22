@@ -1,6 +1,10 @@
 body {
   background: black;
   margin: 0;
+  min-width: 40px;
+  min-height: 24px;
+  width: auto !important;
+  height: auto !important;
 }
 #container {
   width: 100%;
@@ -23,6 +27,8 @@ body {
   border-top: 3px solid #6cc644;
   border-left: 3px solid #6cc644;
   border-right: 3px solid #6cc644;
+  height: 100%;
+  width: 100%;
 }
 #page2 {
   box-sizing: border-box;
@@ -31,4 +37,117 @@ body {
   border-bottom: 3px solid #6cc644;
   border-left: 3px solid #6cc644;
   border-right: 3px solid #6cc644;
+  height: 100%;
+  width: 100%;
+}
+#navbar {
+  height: 11vh;
+  width: 20vw;
+  min-width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: 10%;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  background: black;
+}
+.navbarItem {
+  color: #f5f5f5;
+  font-size: 1.3vw;
+  font-family: "Recursive", sans-serif;
+  background: none;
+  border: none;
+  padding-bottom: 0;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.textNav {
+  border-bottom: 0.25vh black solid;
+  scroll-behavior: smooth;
+}
+.textNav:hover {
+  cursor: pointer;
+  border-bottom: 0.25vh #6cc644 solid;
+  color: #6cc644;
+}
+#navlinkedin {
+  width: 3.1vh;
+  height: 3.1vh;
+}
+#navgithub {
+  width: 3.1vh;
+  height: 3.1vh;
+}
+#mainBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 73.8vw;
+  height: 74.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+#imgBox {
+  width: 20vw;
+  min-width: 120px;
+}
+#avatar {
+  width: 20vw;
+  min-width: 120px;
+}
+#info {
+  width: 25vw;
+}
+#infoHeadline {
+  color: #f5f5f5;
+  font-family: "Recursive", sans-serif;
+  font-size: 6vh;
+  font-weight: 350;
+  margin-bottom: 0;
+}
+#infoTitle {
+  color: #f5f5f5;
+  font-family: "Recursive", sans-serif;
+  font-size: 2vh;
+  font-weight: 350;
+  margin-top: 0;
+}
+.makeitgreen {
+  color: #6cc644;
+}
+#page2Headline {
+  color: #f5f5f5;
+  font-family: "Recursive", sans-serif;
+  font-size: 3vw;
+  font-weight: 370;
+}
+.abtMe {
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  font-weight: 340;
+}
+#page2Box {
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#abtMeSum {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Recursive", sans-serif;
+  font-weight: 340;
+  font-size: 3vw;
+}
+.makeitblue {
+  color: #4078c0;
 }
