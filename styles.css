@@ -123,13 +123,14 @@ body {
 #page2Headline {
   color: #f5f5f5;
   font-family: "Recursive", sans-serif;
-  font-size: 3vw;
+  font-size: max(3vw, 20px);
   font-weight: 370;
 }
 .abtMe {
   color: #f5f5f5;
   font-family: "Poppins", sans-serif;
-  font-size: 1vw;
+  font-size: max(1vw, 14px);
+
   font-weight: 340;
 }
 #page2Box {
@@ -146,7 +147,7 @@ body {
   text-align: center;
   font-family: "Recursive", sans-serif;
   font-weight: 340;
-  font-size: 3vw;
+  font-size: max(3vw, 20px);
 }
 .makeitblue {
   color: #4078c0;
