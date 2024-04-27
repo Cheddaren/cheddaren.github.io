@@ -153,3 +153,11 @@ body {
 .makeitblue {
   color: #4078c0;
 }
+.greenLinkText {
+  color: #6cc644;
+  text-decoration: none;
+}
+.greenLinkText:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
